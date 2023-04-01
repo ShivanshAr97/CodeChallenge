@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.divDesc{
+    font-family: Cabin;
+    margin: 105px 0 20px 32px;
+    font-size: 20px;
+    width: 80%;
+}
+.useHead{
+    font-size: 36px;
+    margin-left: 32px;
+}
+.usePara{
+    font-family: Cabin;
+    margin: 10px 32px;
+    width: 80%;
+}

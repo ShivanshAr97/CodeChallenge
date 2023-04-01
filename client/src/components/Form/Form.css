@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wholeForm{
+    font-family: Cabin;
+    display: flex;
+    position: fixed;
+    width: 22.5%;
+    top: 18%;
+    right: 3%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.formHead{
+    font-size: 32px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.formBtn{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px 20px;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+
+.formBtn1{
+    background-color:crimson;
+    color:white;
+}
+.formBtn2{
+    background-color:transparent;
+}
+
+.formFiles{
+    margin: 15px;
+}
