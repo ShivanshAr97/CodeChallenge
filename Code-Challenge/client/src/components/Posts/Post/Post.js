@@ -18,7 +18,7 @@ const Post = ({ post, setCurrentId }) => {
         <div className='postDesc'>
 
           <div className="postHeadings">
-            <h2 className='postTitle'>{post.title} rmkreh</h2>
+            <h2 className='postTitle'>{post.title}</h2>
             <h5>{moment(post.createdAt).fromNow()}</h5>
           </div>
           

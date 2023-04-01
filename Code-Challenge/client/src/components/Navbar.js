@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">
-        <div className='smae'>
+        <div className='navContainer'>
           <img src={logo} alt="" />
-          <h1 className='navi'>TimeCapsule</h1>
+          <h1 className='navHead'>TimeCapsule</h1>
         </div>
       </Link>
       <div>
@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link to="/about">
             <li>About</li>
           </Link>
-          <li><button className='butn' title='This section is currently in progress'>Sign Up</button></li>
+          <li><button className='navButton' title='This section is currently in progress'>Sign Up</button></li>
         </ul>
       </div>
     </nav>
