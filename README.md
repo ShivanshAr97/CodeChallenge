@@ -13,7 +13,8 @@ So, whether you're looking to preserve your favorite family moments, your advent
 
 ### ScreenShots
 
-![image](https://user-images.githubusercontent.com/96040322/229309772-bda87781-acb3-4f27-b564-769eee058fd2.png)
+![image](https://user-images.githubusercontent.com/96040322/229309891-32e182b0-e716-49cf-9eaf-b9d124b23c08.png)
+
 ![image](https://user-images.githubusercontent.com/96040322/229309792-3d2ad1d4-6ba4-4920-b8e6-5fd9c6d82712.png)
 
 
