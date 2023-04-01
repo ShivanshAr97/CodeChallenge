@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { getPosts } from './actions/posts';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
-import Maiin from './components/Maiin';
+import Main from './components/Main';
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -19,7 +19,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/about' element={<About />} />
-        <Route path='/' element={<Maiin />} />
+        <Route path='/' element={<Main />} />
       </Routes>
       
     </>

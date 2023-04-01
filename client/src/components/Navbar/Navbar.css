@@ -24,21 +24,18 @@ img {
   height: 72px;
 }
 
-.navi {
+.navContainer {
+  display: flex;
   text-decoration: none;
   font-size: 32px;
   font-weight: bold;
   color: rgb(219, 101, 101);
 }
 
-.smae {
+.navHead {
+  font-size: 32px;
   display: flex;
   align-items: center;
-}
-
-p {
-  font-size: 20px;
-  font-weight: 500;
 }
 
 ul {
@@ -47,7 +44,7 @@ ul {
   align-items: center;
 }
 
-li {
+.navLi {
   color: black;
   margin: 0 20px;
   font-size: 18px;
@@ -58,7 +55,7 @@ a{
   text-decoration: none;
 }
 
-.butn {
+.navButton {
   font-family: Ubuntu;
   cursor: pointer;
   border-radius: 5px;
@@ -69,3 +66,19 @@ a{
   font-size: 16px;
 }
 
+
+@media screen and (max-width: 480px) {
+  img{
+    height: 40px;
+  }
+  .navHead {
+    font-size: 24px;
+  } 
+  .navButton{
+    visibility: hidden;
+  }
+  .navLi{
+    font-size: 16px;
+    margin: 0 80px;
+  }
+}
